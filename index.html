@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<style>
+    table, td {
+        border: 1px solid black;
+      }
+      </style>
+      </head>
+      <body>
+      
+     
+
+      <table id="myTable">
+        <tr>
+          <td>Id</td>
+          <td>Name</td>
+          <td>class</td>
+
+
+        </tr>
+        <tr>
+          <td>0</td>
+          <td>Umair</td>
+          <td>5</td>
+          <td><button onclick="myFunction()">Delete</button></td>
+                 </tr>
+
+                 <tr>
+                    <td>1</td>
+                    <td>Zubair</td>
+                    <td>6</td>
+                    <td><button onclick="myFunction()"> Delete</button></td>
+                           </tr>
+      </table>
+      <br> 
+    
+      <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="download.jpg" alt="" width="32" height="32">      
+
+
+      <h3 id="add">0</h3>
+      <button onclick="add();">Click +</button>
+      <button onclick="SUB();">Click -</button><br>
+
+      <dive>
+
+  <form action="http://127.0.0.1:5500/" text-center>
+    <div class="form-group">
+      <label for="email">UserName</label>
+      <input type="text" class="form-control" placeholder="Enter Your Name" id="name">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Last Name</label>
+      <input type="text" class="form-control" placeholder="Last name" id="pwd">
+    </div>
+        <button type="submit" class="btn btn-primary" onclick="signup();">Sign up</button>
+  </form>
+
+  <p>Banana</p>
+  <p id="more"></p>
+<button onclick="more();">Read More</button>
+</dive>
+
+<div>
+  <h1> DOM </h1>
+  <div id=”form-content” class=”content”>
+  <label for=”first-name”>First Name</label>
+  <input type=”text” id=”first-name” />
+  <label for=”last-name”>Last Name</label>
+  <input type=”text” id=”last-name” />
+  <label for=”email”>Email</label>
+  <input type=”text” id=”email” />
+  </div>
+  <div id=”main-content” class=”content”>
+  <p class=”render”> First Name : Alex</p>
+  <p class=”render” id=”lastName”>Last Name: Bank</p>
+  <p class=”render”> Email : alexbank@example.com</p>
+  <p class=”render”> Country : Pakistan </p>
+  <p class=”render”> contact : +92 300 1234567</p>
+  </div>
+  </div>
+  
+    <script src="app.js"></script>
+</body>
+</html>
